@@ -11,6 +11,10 @@ body {
 
 }
 
+.back {
+    background-color: #EDFAD5;
+}
+
 .sword {
     width: 1100px;
     margin: auto;
@@ -31,7 +35,7 @@ body {
     width: bold;
     float: left;
     font-family: Courier;
-    color: #00285E;
+    color: #145208;
 }
 
 .menu {
@@ -45,7 +49,7 @@ nav {
     line-height: 80px;
     position:sticky;
     top: 0;
-    background: #6CADDF;
+    background: #8ECD59;
     z-index: 1;
     
 
@@ -63,7 +67,7 @@ nav ul li {
 }
 
 nav ul li a {
-   color: #00285E;
+   color: #145208;
    font-weight: bold;
    text-align: center;
    padding: 0px 16px 0px 16px;
@@ -107,8 +111,8 @@ position: relative;
 
 .partner .judul {
     display: flex;
-    width: 100%;
-    background: #6CADDF;
+    width: 98%;
+    background: #8ECD59;
     
 }
 
@@ -143,13 +147,13 @@ position: relative;
 }
 
 #contact {
-    background: #6CADDF;
+    background: #8ECD59;
     padding: 50px 0px 50px 0px;
 
 }
 
 .footer {
-    background: #6CADDF ;
+    background: #8ECD59 ;
     padding: 50px 0px 50px 0px;
     width: 100%;
     position: relative;
@@ -169,7 +173,7 @@ h3 {
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 20px;
-    color: #00285E;
+    color: #145208;
     width: 100%;
     line-height: 50px;
 }
@@ -189,7 +193,7 @@ p {
 @media screen and (max-width: 991.98px) {
 
     .sword {
-        width: 90%;
+        width: 100%;
     }
 
     .logo a {
@@ -216,14 +220,24 @@ p {
     }
 
 
-    .dokter-list {
+    .partner-list {
         width: 100%;
-        display: flex;
-        flex-wrap: wrap;
+        display: block;
+
 
     }
 
-    .dokter {
+    .partner {
+        width: 100%;
+        display: block;
+    }
+
+    .partner .judul {
+        width: 100%;
+        display: block;
+    }
+
+    .partner .judul .ket {
         width: 100%;
         display: block;
     }
@@ -242,5 +256,3 @@ p {
 
     
 }
-
-
