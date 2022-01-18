@@ -11,6 +11,10 @@ body {
 
 }
 
+.back {
+    background-color: #EDFAD5;
+}
+
 .sword {
     width: 1100px;
     margin: auto;
@@ -31,7 +35,7 @@ body {
     width: bold;
     float: left;
     font-family: Courier;
-    color: #00285E;
+    color: #145208;
 }
 
 .menu {
@@ -45,7 +49,7 @@ nav {
     line-height: 80px;
     position:sticky;
     top: 0;
-    background: #6CADDF;
+    background: #8ECD59;
     z-index: 1;
     
 
@@ -63,7 +67,7 @@ nav ul li {
 }
 
 nav ul li a {
-   color: #00285E;
+   color: #145208;
    font-weight: bold;
    text-align: center;
    padding: 0px 16px 0px 16px;
@@ -83,6 +87,7 @@ h1 {
 p {
     margin: 10px;
     font-family: 'comic sans ms';
+    color: black;
 }
 
 
@@ -102,8 +107,10 @@ p {
 }
 
 
-.keterangan {
+.poli.keterangan {
     display: block;
+    color: black;
+    font-size: 20px;
 }
 .poli img {
    width: 30%;
@@ -126,23 +133,23 @@ p {
     float: right;
    font-family: 'comic sans ms';
    font-weight:19%;
-   font-size: 20px;
+   font-size: 18px;
    text-align:left;
-   color: #00285E;
+   color: black;
    margin-right: 20px;
    margin-bottom: 30px;
 }
 
 
 #contact {
-    background: #6CADDF;
+    background: #8ECD59;
     padding: 50px 0px 50px 0px;
 
 }
 
 
 .footer {
-    background: #EA99D5;
+    background: #8ECD59;
     padding: 50px 0px 50px 0px;
     width: 100%;
     position: relative;
@@ -162,7 +169,7 @@ h3 {
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 20px;
-    color: #00285E;
+    color: #145208;
     width: 100%;
     line-height: 50px;
 }
